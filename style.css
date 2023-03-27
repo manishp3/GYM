@@ -1,0 +1,110 @@
+body{margin: 0px;
+    padding: 0px;
+    color: white;
+   background: url('bg.jpg');
+   font-family: 'Playfair Display', serif;
+
+  
+}
+.left{
+    display: inline-block;
+
+position: absolute;
+left: 30px;
+top: 22px;
+text-align: center;
+}
+.left img{
+    filter: invert(100%);
+    height: 45px;
+    width: 75px;
+
+}
+.left div{
+    line-height: 15px;
+
+    align-items: center;
+}
+.btn
+{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 14px 24px;
+    border: 2px solid rgba(77, 75, 75, 0.445);
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+.btn:hover{
+    background-color: rgb(87, 83, 83);
+    transition: 0.5s;
+}
+.mid{
+  
+    display: block;
+    width: 36%;
+    margin: 18px auto;
+}
+.navbar li{
+   font-size: 16px;
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:10px ;
+}
+.navbar li a:hover,.navbar li a.active{
+    color: grey;
+    text-decoration: underline;
+    padding:10px ;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+   
+}
+.container{
+    border: 2px inset white;
+    margin: 106px 108px;
+    padding: 39px 14px;
+    width: 33%;
+    font-family: 'Playfair Display', serif;
+    border-radius: 16px;    
+}
+.from input{
+    text-align: center;
+    display: block;
+    border: 2px outset black;
+    border-radius: 7px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 5px;
+    width: 60%;
+    font:20px;
+}
+.from{
+    text-align: center;
+    display: block;
+    font-family: 'Playfair Display', serif;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: 123px;
+}
+.container .btn{
+    display: flex;
+    justify-content: center;
+    height: 13px;
+    font-family: 'Playfair Display', serif;
+    width: 257px;
+}
